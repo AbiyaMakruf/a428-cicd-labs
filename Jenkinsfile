@@ -1,3 +1,5 @@
+// Menambahkan komentar sehingga terdeteksi sebagai perubahan dan SCM akan aktif
+
 node {
     properties([
         pipelineTriggers([pollSCM('H/2 * * * *')])
