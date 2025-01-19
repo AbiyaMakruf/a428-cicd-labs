@@ -10,6 +10,7 @@ node {
 
         stage('Test') {
             sh './jenkins/scripts/test.sh'
+            sh './jenkins/scripts/test.sh'
         }
     }
 }
